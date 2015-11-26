@@ -6,8 +6,8 @@ if(!(require(ggplot2))) install.packages("ggplot2"); library(ggplot2)
 if(!(require(rvest))) install.packages("rvest"); library(rvest)
 if(!(require(stringr))) install.packages("stringr"); library(stringr)
 if(!(require(tm))) install.packages("tm"); library(tm)
-if(!require(lubridate)) install.packages("lubridate"); library(lubridate)
-if(!require(reshape2)) install.packages("reshape2"); require(reshape2)
+if(!(require(lubridate))) install.packages("lubridate"); library(lubridate)
+if(!(require(reshape2))) install.packages("reshape2"); require(reshape2)
 
 source("DebateScrape.R")
 
